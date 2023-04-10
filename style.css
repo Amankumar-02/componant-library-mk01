@@ -121,13 +121,32 @@ header h1{
 header h1 span{
     color: var(--primary-color);
 }
-.section1 h2{
+.section1 {
     text-align: center;
 }
 .section2{
     background-color: var(--offwhite);
     padding: 2rem 0;
-}
-.section2 h2{
     text-align: center;
+}
+footer nav{
+    background-color: var(--primary-color);
+    color: ghostwhite;
+    text-align: center;
+    padding: 2rem 0;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.bottom{
+    font-weight: bold;
+    width: 100vw;
+}
+footer nav ul li{
+    list-style: none;
+    display: inline;
+}
+footer nav ul li a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: ghostwhite;
 }
