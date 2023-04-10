@@ -139,7 +139,7 @@ footer nav{
 }
 .bottom{
     font-weight: bold;
-    width: 100vw;
+    /* width: 100vw; */
 }
 footer nav ul li{
     list-style: none;
@@ -149,4 +149,7 @@ footer nav ul li a{
     margin: 0 1rem;
     text-decoration: none;
     color: ghostwhite;
+}
+footer nav ul{
+    padding-inline-start: 0px;
 }
