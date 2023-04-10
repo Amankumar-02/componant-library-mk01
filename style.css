@@ -2,37 +2,108 @@
 padding: 0;} */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-:root{
-    --primary-color:#eab308
+:root {
+    --primary-color: #eab308
 }
 
-body{
+body {
     font-family: 'Ubuntu', sans-serif;
     /* color: blue; */
 }
-h1{
+
+hr {
+    margin: 2rem 0;
+}
+
+h1 {
     color: var(--primary-color);
     /* font-weight: bolder; */
 }
-h2{
+
+h2 {
     color: red;
 }
-h3{
+
+h3 {
     color: blue;
 }
-.container{
-     padding: 0 2rem;
+
+.container {
+    padding: 0 2rem;
 }
-.container-center{
-    max-width: 700px;
-    margin:auto;
+
+.container-center {
+    padding: 0 2rem;
+    max-width: 600px;
+    margin: auto;
 }
-.link{
+
+.links {
+    margin: 2rem 0;
+}
+
+.link {
     text-decoration: none;
+    padding: .5rem 1rem;
+    margin: 0.5rem;
 }
-.link-primary{
-    color: var(--primary-color);
+
+.link-primary {
+    /* text-decoration: none; */
+    background-color: var(--primary-color);
+    color: ghostwhite;
+    border-radius: 12px;
+    /* padding: .5rem 1rem; */
+    /* margin: 0.5rem; */
 }
-.link-secondary{
+
+.link-secondary {
+    /* text-decoration: none; */
     color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 12px;
+    /* padding: .5rem 1rem; */
+    /* margin: .5rem; */
+}
+.link-primary:hover {
+    background-color: white;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+.link-secondary:hover {
+    background-color: var(--primary-color);
+    color: ghostwhite;
+}
+.list-unordered{
+    list-style: none;
+}
+.list-inline{
+    list-style: none;
+    /* display: flex; */
+}
+.list-inline li{
+    margin: 0 10px;
+    display: inline;
+}
+.nav-bar{
+background-color: var(--primary-color);
+color: ghostwhite;
+padding: 1rem;
+border-bottom-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+.brand{
+    font-weight: bold;
+}
+.nav-bar ul{
+    text-align: right;
+    list-style: none;
+}
+.nav-bar ul li{
+    display: inline;
+    margin: 0 1rem;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: ghostwhite;
 }
