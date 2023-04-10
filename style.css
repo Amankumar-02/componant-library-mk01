@@ -4,7 +4,7 @@ padding: 0;} */
 
 :root {
     --primary-color: #eab308;
-    --secondary-color: #57534e;
+    --secondary-color: #9ca3af;
     --offwhite: #d4d4d4;
 }
 
@@ -117,6 +117,9 @@ header img{
 header h1{
     color: var(--secondary-color);
     text-align: center;
+}
+header h1 span{
+    color: var(--primary-color);
 }
 .section1 h2{
     text-align: center;
