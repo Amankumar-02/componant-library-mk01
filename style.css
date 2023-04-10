@@ -3,7 +3,9 @@ padding: 0;} */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 :root {
-    --primary-color: #eab308
+    --primary-color: #eab308;
+    --secondary-color: #57534e;
+    --offwhite: #d4d4d4;
 }
 
 body {
@@ -106,4 +108,23 @@ border-top-right-radius: 15px;
 .nav-bar ul li a{
     text-decoration: none;
     color: ghostwhite;
+}
+header img{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+header h1{
+    color: var(--secondary-color);
+    text-align: center;
+}
+.section1 h2{
+    text-align: center;
+}
+.section2{
+    background-color: var(--offwhite);
+    padding: 2rem 0;
+}
+.section2 h2{
+    text-align: center;
 }
