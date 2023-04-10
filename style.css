@@ -2,6 +2,37 @@
 padding: 0;} */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+:root{
+    --primary-color:#eab308
+}
+
 body{
     font-family: 'Ubuntu', sans-serif;
+    /* color: blue; */
+}
+h1{
+    color: var(--primary-color);
+    /* font-weight: bolder; */
+}
+h2{
+    color: red;
+}
+h3{
+    color: blue;
+}
+.container{
+     padding: 0 2rem;
+}
+.container-center{
+    max-width: 700px;
+    margin:auto;
+}
+.link{
+    text-decoration: none;
+}
+.link-primary{
+    color: var(--primary-color);
+}
+.link-secondary{
+    color: var(--primary-color);
 }
